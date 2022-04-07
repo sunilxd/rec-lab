@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+        <title>earth</title>
+    </head>
+    <body bgcolor="black" font-color="white">
+        <center>
+            <font color="white" face="arial">
+            <h1>Sun</h1>
+            <img src="earth.jpg" alt="earth" height="50%"/>
+            <p>
+                Explore our solar system's planets from the nearest to the sun to the furthest.
+            </p>
+            </font>
+        </center>
+    </body>
+</html>

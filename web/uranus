@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+        <title>uranus</title>
+    </head>
+    <body bgcolor="black" font-color="white">
+        <center>
+            <font color="white" face="arial">
+            <h1>Sun</h1>
+            <img src="uranus.jpg" alt="uranus" height="50%"/>
+            <p>
+                Related: Sounds in space: What noises do planets make? 
+            </p>
+            </font>
+        </center>
+    </body>
+</html>

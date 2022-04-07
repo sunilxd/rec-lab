@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+        <title>mercury</title>
+    </head>
+    <body bgcolor="black" font-color="white">
+        <center>
+            <font color="white" face="arial">
+            <h1>Sun</h1>
+            <img src="mercury.jpg" alt="mercury" height="50%"/>
+            <p>
+                Space is supported by its audience. When you purchase through links on our site, we may earn an affiliate commission. Learn more
+            </p>
+            </font>
+        </center>
+    </body>
+</html>
