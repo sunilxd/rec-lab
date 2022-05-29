@@ -1,0 +1,20 @@
+wq
+echo "Enter First Number: "
+read num1
+echo "Enter Second Number"
+read num2
+echo "Enter any one of the Below Operations:"
+echo "+ - * /"
+
+read ch
+
+case "$ch" in
+'+') r=`expr $num1 + $num2`
+echo "Addition = $r";;
+'-') r=`expr $num1 - $num2`
+echo "Subtraction = $r";;
+'*') r=`expr $num1 \* $num2`
+echo "Multiplication = $r";;
+'/') r=`expr $num1 / $num2`
+echo "Division = $r";;
+esac

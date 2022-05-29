@@ -21,7 +21,7 @@ else
 wait();
 printf("Enter a & b for nul \n");
 scanf("%d%d",&a,&b);
-printf("cal by parent = %d\n",a*b);
+printf("call by parent = %d\n",a*b);
 printf("parent process PID = %d\n",getpid());
 }
 }

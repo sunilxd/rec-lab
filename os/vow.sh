@@ -5,4 +5,7 @@ read c
 
 case $c in
 	[aeiou]|[AEIOU])
-		echo "voewl:
+		echo "voewl";;
+	*)
+		echo "consonent";;
+esac
