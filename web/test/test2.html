@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>fib</title>
+        <script>
+            function det(a, b, c) {
+                return b**2-4*a*c;
+            }
+            function my() {
+                prompt("wy the fuck");
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;
+                var c = document.getElementById("c").value;
+                document.getElementById("output").innerHTML = "testing";
+            }
+
+        </script>
+    </head>
+    <body>
+
+        <form>
+            <h3>ax<sup>2</sup>+bx+c=0</h3>
+            a: <input type="text" id="a">
+            b: <input type="text" id="b">
+            c: <input type="text" id="c">
+            <input type="submit" onsubmit="my()">
+        </form>
+        <p id="output"></p>
+    </body>
+</html>

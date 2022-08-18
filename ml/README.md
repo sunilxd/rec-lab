@@ -1,9 +1,10 @@
 ## list of all experiments
+** all the programs are converting to be more mathematical than just importing
 ex1 - [A Python program to Implement Univariate,Bivariate,Multivariate.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex1/ex1.ipynb)  
 ex2 - [A python program to Implement Simple Linear Regression Using Least square Method.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex2/ex2.ipynb)  
 ex3 - [A python program to Implement Logistic Model.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex3/ex3.ipynb)  
 ex4 - [A python program to Implement Single Layer Perceptron.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex4/ex4.ipynb)  
-ex5 - [A python program to Implement MultiLayer Perceptron With BAck Propagation.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex5/ex5.ipynb)  
+ex5 - [A python program to Implement MultiLayer Perceptron With Back Propagation.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex5/ex5.ipynb)  
 ex6 - [A python Program to Implement SVM Classifier.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex6/ex6.ipynb)  
 ex7 - [A python program to Implement Decision Tree.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex7/ex7.ipynb)  
 ex8.1 - [Ada Boosting.](https://github.com/sunilxd/rec-lab/blob/master/ml/ex8/ex8_1.ipynb)  

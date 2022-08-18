@@ -1,13 +1,46 @@
 <html>
     <head>
-        <title>Tests</title>
+        <title>fib</title>
+        <script>
+            function det(a, b, c) {
+                return b**2-4*a*c;
+            }
+            function my() {
+                alert("hello");
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;
+                var c = document.getElementById("c").value;
+                var ou = "";
+                var det_ = det(a, b, c);
+                if (det_==0) {
+                    ou += "Equal roots\n";
+                    ou += -b/(2*a);
+                }
+                else if(det_>0) {
+                    ou += "two distinct real roots\n";
+                    ou += (-b+det_**0.5)/(2*a)+"\n";
+                    ou += (-b-det_**0.5)/(2*a)+"\n";
+                }
+                else {
+                    det_ *= -1;
+                    ou += "two distinct imaginary roots roots\n";
+                    ou += -b+det_**0.5+"i/"+(2*a)+"\n";
+                    ou += -b-det_**0.5+"i/"+(2*a)+"\n";     
+                }
+                document.getElementById("output").innerHTML = ou;
+            }
+
+        </script>
     </head>
     <body>
-        <h1><?php echo "Hello World" ?></h1>
-        <?php
-        $te = "sunil";
-        echo $te;
-        ?>
-        <h1>this is good and all but how to do you connect php?</h1>
+
+        <form>
+            <h3>ax<sup>2</sup>+bx+c=0</h3>
+            a: <input type="number" id="a">
+            b: <input type="number" id="b">
+            c: <input type="number" id="c">
+            <input type="submit" onsubmit="my()">
+        </form>
+        <p id="output"></p>
     </body>
 </html>
