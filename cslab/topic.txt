@@ -1,0 +1,25 @@
+python, concept, datastructures and classes
+
+1   python language basics
+    python and jupyter notebook
+
+2   build in data structers, function and files
+
+3   numpy basics
+    array and vector computation
+
+4   working with pandas
+
+5   data loading, storage and file formats
+
+
+visulaization in python
+1   using matplotlib package and plotting different graphs
+    a   consider the company sales data company_sales_data.csv file and read the total profit of all the months and show it using line plot.
+    b   read all the product sales data and show it using multiple line plot
+    c   read the toothpaste sales data for each month and show it in scatter plot
+    d   compare the sales of facecream and fasefash product and vusalize it using bar chart
+    e   consider the sales data of bathing soap of all month and show it using bar chart
+    f   consider the future of total product of each month and show it using histogram to see the most common profit range
+    g   calculate the total sales data for the last year for each product and show it using pychart
+    
